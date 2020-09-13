@@ -1,16 +1,63 @@
 /* Type your code here */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,600;1,200;1,400&display=swap"rel="stylesheet");
 
+body {
+  font-family: "Nunito Sans", sans-serif;
+  column-width: 100%;
+}
+
+header > div {
+  padding-left: 60em;
+}
+
+h1,
+h4 {
+  padding-left: 50px;
+}
+
+h4 {
+  color: grey;
+}
+
+#background-image {
+  background-image: url("/lab-cricpro-scoreboard/assets/background-image1.png");
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 450px;
+  padding-right: 500em;
+}
+th {
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid grey;
+  border-collapse: collapse;
+}
+
+table,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th,
+table,
+td {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  position: relative;
+  margin-left: 15px;
+  font-size: 15px;
 }
